@@ -8,7 +8,7 @@ import struct
 
 separator = ''
 pdf_file = open('sample.pdf', 'rb').read()
-#pdf_file = urllib.request.urlopen('https://github.com/jankais3r/PDF-Text-Extract/blob/master/sample.pdf').read()
+#pdf_file = urllib.request.urlopen('https://github.com/jankais3r/PDF-Text-Extract/raw/master/sample.pdf').read()
 
 def decode_escapes(original_text):
 	regex = re.compile(r'(\\)([0-7]{1,3})', re.UNICODE)
